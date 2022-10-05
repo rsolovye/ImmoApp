@@ -14,8 +14,8 @@ pipeline {
         echo 'run backend stage 1 : step 1'
         /*withGradle(){
           sh './gradlew -v'
-        */
         }//withGradle
+        */
       }//steps "run backend"
     }//stage "run bacend"
   }//stages
