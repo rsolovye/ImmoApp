@@ -4,10 +4,9 @@ pipeline {
     stage("run frontend"){
       steps {
         echo 'run frontend stage 1 : step 1'
-       /* nodejs('Node-18.10') {
+        nodejs('Node-18.10') {
           sh 'yarn insall'
         }//nodejs
-        */
       }//steps
     }//stage
     stage("run backend"){
