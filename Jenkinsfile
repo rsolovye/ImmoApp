@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'run frontend stage 1 : step 1'
         nodejs('Node-18.10') {
-          sh 'yarn insall'
+          sh 'yarn install'
         }//nodejs
       }//steps
     }//stage
