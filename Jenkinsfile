@@ -9,6 +9,7 @@ pipeline {
         }//nodejs
         */
       }//steps
+    }//stage
     stage("run backend"){
       steps { 
         echo 'run backend stage 1 : step 1'
