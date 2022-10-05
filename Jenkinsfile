@@ -4,7 +4,7 @@ pipeline {
     stage("run frontend"){
       steps {
         echo 'executing yarn...'
-        nodejs('Node-10.17') {
+        nodejs('Node-18.10') {
           sh 'yarn insall'
         }//nodejs
       }//steps
