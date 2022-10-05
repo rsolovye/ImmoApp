@@ -9,10 +9,6 @@ pipeline {
         }//nodejs
         */
       }//steps
-    steps {
-        echo 'run frontend stage 1 : step 2'
-      
-    }//stage
     stage("run backend"){
       steps { 
         echo 'run backend stage 1 : step 1'
