@@ -12,10 +12,10 @@ pipeline {
     stage("run backend"){
       steps { 
         echo 'run backend stage 1 : step 1'
-        /*withGradle(){
-          sh './gradlew -v'
+        withGradle(){
+          sh './gradle -v'
         }//withGradle
-        */
+        
       }//steps "run backend"
     }//stage "run bacend"
   }//stages
