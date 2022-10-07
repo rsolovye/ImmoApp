@@ -13,7 +13,8 @@ pipeline {
       steps { 
         echo 'run backend stage 1 : step 1'
         withGradle(){
-          sh '/opt/gradle-6.3/bin/gradle -v'
+             sh 'gradle -v'
+          // sh '/opt/gradle-6.3/bin/gradle -v'
         }//withGradle
         
       }//steps "run backend"
